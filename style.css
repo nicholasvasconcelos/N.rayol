@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#infoContainer {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#formInfo {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3697c1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #156f85;
+}
+
+/* Estilos gerais da navegação */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  /* Estilos para os links */
+  .navbar a:hover {
+    background-color: #111;
+  }
+  
+  /* Estilos para os títulos */
+  .navbar h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para tornar o menu responsivo */
+  @media screen and (max-width: 768px) {
+    .navbar a, .navbar h1 {
+      font-size: 16px;
+    }
+  }
+  
